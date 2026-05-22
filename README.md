@@ -143,7 +143,7 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install --upgrade pip
-pip install torch torchvision torchaudio tiktoken transformers notebook tqdm matplotlib
+pip install -r requirements.txt
 ```
 
 ### 2. Training the Character GPT Model (`train.py`)

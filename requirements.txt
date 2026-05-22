@@ -1,0 +1,20 @@
+# Deep Learning & PyTorch
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Tokenization & Hugging Face Transformers
+tiktoken>=0.5.0
+transformers>=4.35.0
+
+# TensorFlow (Optional: only required for loading original GPT-2 checkpoint weights in llms-from-scratch.ipynb)
+# Note: Commented out because TensorFlow doesn't support pre-release/unreleased Python versions (e.g., Python 3.14)
+# tensorflow>=2.15.0
+
+# Scientific Computing & Data Visualization
+numpy>=1.25.0
+matplotlib>=3.8.0
+
+# Utilities
+tqdm>=4.66.0
+notebook>=7.0.0
